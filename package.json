@@ -7,6 +7,10 @@
     "install": "^0.13.0",
     "mysql2": "^2.3.3"
   },
+  "scripts": {
+    "start": "node server",
+    "watch": "nodemon server"
+  },
   "devDependencies": {
     "nodemon": "^2.0.16"
   }
