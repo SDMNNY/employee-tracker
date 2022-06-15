@@ -1,2 +1,5 @@
 node_modules
 package-lock.json
+.env.DB_NAME
+.env.DB_PASSWORD
+.env.DB_USER 
