@@ -3,6 +3,9 @@ const express = require('express');
 const mysql = require('mysql12');
 const cTable = require('console.table');
 
+// ENV
+require("dotenv").config();
+
 // PORT
 const PORT = process.env.PORT || 3001;
 const app = express(); 
@@ -22,7 +25,8 @@ const db = mysql.createConnection(
     },
     console.log(`Connected to the employees_db database.`)
   );
-    // 
+
+    // prompts questions for user 
   function start() {
     inquirer
       .prompt([
